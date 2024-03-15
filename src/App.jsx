@@ -9,10 +9,10 @@ const App = () => {
   return (
     <>
       <Profile
-        name={user.username}
+        username={user.username}
         tag={user.tag}
         location={user.location}
-        image={user.avatar}
+        avatar={user.avatar}
         stats={user.stats}
       />
       {/* <FriendList friends={friends} /> */}
