@@ -1,5 +1,4 @@
 import { Profile } from "./components/Profile/Profile";
-// import { user } from "./components/Data/userData.json";
 import user from "./components/Data/userData.json";
 
 // import friends from "../friends.json";
