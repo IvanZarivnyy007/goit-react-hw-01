@@ -1,24 +1,36 @@
 .container-frieds {
-  width: 1000px;
-  height: 800px;
+  /* width: 1000px;
+  height: 800px; */
   display: flex;
   justify-content: center;
 }
 
 .ul-frieds {
+  grid-gap: 15px;
+  display: flex;
 }
 
 .li-frieds {
+  display: flex;
+  grid-gap: 15px;
+  border-radius: 1px black;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .container-frieds-list {
 }
 
 .img-frieds {
+  width: 150px;
 }
 
 .name-frieds {
+  text-align: center;
+  color: black;
 }
 
 .online-frieds {
+  text-align: center;
+  color: black;
 }

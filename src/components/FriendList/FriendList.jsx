@@ -3,7 +3,7 @@ import FriendListItem from "./FriendListItem";
 
 export const FriendList = ({ friends }) => {
   return (
-    <div className="contsiner-frieds">
+    <div className="container-frieds">
       <ul className="ul-frieds">
         {friends.map((friend, index) => (
           <li className="li-frieds" key={index}>

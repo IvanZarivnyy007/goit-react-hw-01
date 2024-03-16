@@ -66,3 +66,53 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* ====================================== */
+
+.container-frieds {
+  /* width: 1000px;
+  height: 800px; */
+  display: flex;
+  justify-content: center;
+  margin-left: 430px;
+  margin-top: 50px;
+}
+
+.ul-frieds {
+  display: flex;
+  grid-gap: 15px;
+}
+
+.li-frieds {
+  display: flex;
+  grid-gap: 15px;
+  border-radius: 1px black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.container-frieds-list {
+}
+
+.img-frieds {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.name-frieds {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.online-frieds {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+p.online-frieds {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
