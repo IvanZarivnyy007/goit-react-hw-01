@@ -12,6 +12,9 @@ const FriendListItem = (props) => {
   );
 };
 
+{
+  /* <p className="online-frieds">{isOnline ? "Online" : "Offline"}</p> */
+}
 export default FriendListItem;
 
 FriendListItem.propTypes = {

@@ -111,8 +111,11 @@ button:focus-visible {
   color: green;
   font-size: 20px;
 }
-p.online-frieds {
-  text-align: center;
+
+.online {
+  color: red;
+}
+
+.offline {
   color: green;
-  font-size: 20px;
 }
